@@ -27,7 +27,7 @@ fi
 echo "Installing After Dark ..."
 
 # Clone repo
-(cd themes; git clone -q --depth 1 https://github.com/comfusion/after-dark || { echo "cloning failed :/"; exit 1; })
+(cd themes; git clone -q --depth 1 https://github.com/dwwmmn/after-after-dark || { echo "cloning failed :/"; exit 1; })
 
 # Copy archetypes
 cp themes/after-dark/archetypes/* ./archetypes

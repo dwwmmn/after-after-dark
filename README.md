@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/comfusion/after-dark/master/images/minimal-mac.png" title="After Dark running on a MacBook and iPhone" alt="After Dark theme screenshots">
+  <img src="https://raw.githubusercontent.com/dwwmmn/after-after-dark/master/images/minimal-mac.png" title="After Dark running on a MacBook and iPhone" alt="After Dark theme screenshots">
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/dm/after-dark.svg?style=flat-square" alt="NPM downloads per month"></a>
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/v/after-dark.svg?style=flat-square" alt="Latest NPM version"></a>
-  <a href="https://github.com/comfusion/after-dark/blob/master/COPYING"><img src="https://img.shields.io/github/license/comfusion/after-dark.svg?style=flat-square" alt="Project license"></a>
+  <a href="https://github.com/dwwmmn/after-after-dark/blob/master/COPYING"><img src="https://img.shields.io/github/license/dwwmmn/after-after-dark.svg?style=flat-square" alt="Project license"></a>
 </p>
 
 ## Features
@@ -34,7 +34,7 @@
       </tr>
       <tr>
         <td>Semantic Versioning</td>
-        <td>Predictable changes enable theme users stay up-to-date with what's happening. After Dark uses <a target="feature" href="http://semver.org/">Semantic Versioning</a> and maintains a <a target="feature" href="https://github.com/comfusion/after-dark/blob/master/CHANGELOG.md">CHANGELOG</a> for easy consumption.</td>
+        <td>Predictable changes enable theme users stay up-to-date with what's happening. After Dark uses <a target="feature" href="http://semver.org/">Semantic Versioning</a> and maintains a <a target="feature" href="https://github.com/dwwmmn/after-after-dark/blob/master/CHANGELOG.md">CHANGELOG</a> for easy consumption.</td>
       </tr>
       <tr>
         <td>Inclusive Design</td>
@@ -134,7 +134,7 @@
 
 ## Demo & Tutorial
 
-Head to [Hack Cabin](https://hackcabin.com) for a **production example** of which the [site architecture](https://hackcabin.com/post/initial-commit/) can be recreated using a [step-by-step guide](https://go.habd.as/zero-to-http-2). And while you're looking at example sites, check out [a few others](https://github.com/comfusion/after-dark/wiki) for even more inspiration.
+Head to [Hack Cabin](https://hackcabin.com) for a **production example** of which the [site architecture](https://hackcabin.com/post/initial-commit/) can be recreated using a [step-by-step guide](https://go.habd.as/zero-to-http-2). And while you're looking at example sites, check out [a few others](https://github.com/dwwmmn/after-after-dark/wiki) for even more inspiration.
 
 ## Getting Started
 
@@ -147,7 +147,7 @@ brew install hugo elinks
 Then run the install script located in `bin/install.sh`, or just paste this into a terminal and press <kbd>Enter</kbd>:
 
 ```shell
-curl -s https://raw.githubusercontent.com/comfusion/after-dark/master/bin/install.sh | sh
+curl -s https://raw.githubusercontent.com/dwwmmn/after-after-dark/master/bin/install.sh | sh
 ```
 
 Installation should complete in a matter of seconds.
@@ -266,7 +266,7 @@ Increase user engagement when sharing links on social media.
 
 After Dark leverages Open Graph tags using the *undocumented* [internal template](https://github.com/spf13/hugo/blob/142558719324aa1628541d556ef1fa2d123f1e68/tpl/tplimpl/template_embedded.go#L159-L201) to achieve rich sharing cards for Facebook and other social networks, as shown here:
 
-![Open Graph sharing card screenshot](https://raw.githubusercontent.com/comfusion/after-dark/a647938/images/docs/feat-social-awareness.png "Example Open Graph sharing card produced by After Dark")
+![Open Graph sharing card screenshot](https://raw.githubusercontent.com/dwwmmn/after-after-dark/a647938/images/docs/feat-social-awareness.png "Example Open Graph sharing card produced by After Dark")
 
 To create a social sharing card like the one shown above, specify `author` in `config.toml` and, optionally, override it from your front matter as shown here:
 
@@ -301,7 +301,7 @@ images = [
 
 See [Unsplash Source](https://source.unsplash.com/) for image configuration options.
 
-**Note:** While it would be possible, After Dark does not currently support relative links to images. If you would like to see this feature, please [open a new issue](https://github.com/comfusion/after-dark/issues/new).
+**Note:** While it would be possible, After Dark does not currently support relative links to images. If you would like to see this feature, please [open a new issue](https://github.com/dwwmmn/after-after-dark/issues/new).
 
 #### Twitter Cards
 
@@ -530,7 +530,7 @@ Reference the Hugo docs for [shortcode usage instructions](https://gohugo.io/con
 
 Provide a richer experience when sharing code snippets on your site. After Dark provides support for code highlighting using the lovely [One Dark](https://github.com/atom/one-dark-syntax) and [One Light](https://github.com/atom/one-light-syntax) syntax themes for Pygments and Chroma.
 
-![Syntax Highlighting screenshot](https://raw.githubusercontent.com/comfusion/after-dark/d98d68e/images/docs/feat-syntax-highlighting.png "Syntax Highlighting using Atom One Pygments and Chroma")
+![Syntax Highlighting screenshot](https://raw.githubusercontent.com/dwwmmn/after-after-dark/d98d68e/images/docs/feat-syntax-highlighting.png "Syntax Highlighting using Atom One Pygments and Chroma")
 
 To set-up syntax highlighting for your After Dark site:
 
